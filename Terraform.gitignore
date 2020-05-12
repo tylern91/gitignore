@@ -6,7 +6,7 @@
 *.tfstate.backup
 *.tfstate.*.backup
 
-# Crash log files and any logs file
+# Crash log and any logs files
 crash.log
 *.log
 
@@ -38,7 +38,3 @@ terraform.rc
 # Ignore any MacOS system file that holds attributes/metadata about the folder
 # it resides in
 .DS_Store
-
-# Project specific settings of IDEs
-.idea
-.vscode
